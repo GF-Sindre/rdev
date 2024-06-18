@@ -35,7 +35,7 @@ Then, reinstalled package
 devtools::install()
 ```
 And I was able to run the C++ functions.
-```bash
+```
 > rdev::message()
 This was run in C++!
 [1] 0
