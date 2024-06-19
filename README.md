@@ -28,12 +28,10 @@ Makes a separate folder, but I can move it to the root later.
 
 Added C++ functions to the rcpp_hello_world.cpp file and ran:
 ```R
-# R console
 Rcpp::compileAttributes()
 ```
 Then, reinstalled package
 ```R
-# R console
 devtools::install()
 ```
 And I was able to run the C++ functions.
