@@ -42,3 +42,11 @@ This was run in C++!
 > rdev::add(6, 8)
 [1] 14
 ```
+
+## Creating installable tarball
+
+Creating a tarball is easy - even if the documentation is a bit misleading!
+
+```
+R CMD build .
+```
